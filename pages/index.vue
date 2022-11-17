@@ -206,7 +206,7 @@ export default {
       error_recaptcha: false,
       address_rules: [
         value => !!value||`Required.\n Example: ${DEFAULT_TESTING_ADDRESS}`,
-        value => /^(cheqd)1[a-z0-9]{38}$/.test(value)||'Invalid cheqd address format.'
+        value => /^(blu)1[a-z0-9]{38}$/.test(value)||'Invalid cheqd address format.'
       ],
       CHEQD_MINIMAL_DENOM,
       CHEQD_CURRENT_AMOUNT_GIVEN,
