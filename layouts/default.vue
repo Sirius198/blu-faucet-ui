@@ -142,7 +142,7 @@ export default {
   data () {
     return {
       fixed: false,
-      title: 'cheqd Testnet faucet',
+      title: 'BLU Testnet faucet',
       faucet_status: '',
       faucet_status_color: 'green',
       items: ['cheqd-testnet-4'],
