@@ -27,7 +27,7 @@
                     v-bind="attrs"
                     v-on="on"
                     small
-                    color="green"
+                    :color="faucet_status_color"
                     >
                     mdi-circle
                   </v-icon>
@@ -81,7 +81,7 @@
                               v-bind="attrs"
                               v-on="on"
                               small
-                              color="green"
+                              :color="faucet_status_color"
                               >
                               mdi-circle
                             </v-icon>
@@ -170,7 +170,6 @@ export default {
         this.faucet_status = 'Down'
         return
       }
-
       this.faucet_status_color = 'red'
       this.faucet_status = 'Down'
       return
