@@ -230,14 +230,14 @@ export default {
 
       this.loading = !this.loading
 
-      // try {
-      //   await this.$recaptcha.getResponse()
-      //   await this.$recaptcha.reset()
-      // } catch (error) {
-      //   this.loading = !this.loading
-      //   this.error_recaptcha = true
-      //   return this.handle_auto_dismiss('error_recaptcha')
-      // }
+      try {
+        await this.$recaptcha.getResponse()
+        await this.$recaptcha.reset()
+      } catch (error) {
+        this.loading = !this.loading
+        this.error_recaptcha = true
+        return this.handle_auto_dismiss('error_recaptcha')
+      }
 
       const status = await this.handle_fetch()
 
