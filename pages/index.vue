@@ -51,7 +51,7 @@
               mdi-information-outline
             </v-icon>
           </template>
-          <span>Please enter your blu testnet wallet address which we'll use to transfer your test tokens.<br> To show the wallet address, follow the <a class="font-weight-bold" href="https://github.com/cheqd/cheqd-node/blob/main/docs/cheqd-cli/cheqd-cli-accounts.md" target="_blank">cheqd CLI guide on managing accounts (cheqd-noded keys list).</a><br> It should begin with "cheqd1".</span>
+          <span>Please enter your blu testnet wallet address which we'll use to transfer your test tokens.</span>
         </v-tooltip>
       </v-stepper-step>
 
