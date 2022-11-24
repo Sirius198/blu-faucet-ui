@@ -18,7 +18,7 @@
         :step="1"
       >
         <div class="txtdts text-center">
-          <p>If you are a developer looking to test the functionality of blu network or setting up a node on testnet, setting up a node on the blu test network, you can acquire <b>test</b> CHEQ tokens through this faucet.</p>
+          <p>If you are a developer looking to test the functionality of blu network or setting up a node on testnet, setting up a node on the blu test network, you can acquire <b>test</b> BLU tokens through this faucet.</p>
         </div>
         <v-btn
           @click="step++"

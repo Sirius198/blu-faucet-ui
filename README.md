@@ -1,4 +1,4 @@
-# cheqd Testnet Faucet UI
+# blu Testnet Faucet UI
 
 ## Build Setup
 
